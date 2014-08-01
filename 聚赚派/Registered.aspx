@@ -10,6 +10,7 @@
                 </div>
                 <div style="padding: 8px 0px 8px 0">
                     <a>登录密码：</a><asp:TextBox ID="denglu" runat="server" TextMode="Password"></asp:TextBox>
+                    <asp:Label ID="Warning0" runat="server" Font-Names="宋体" Font-Size="Small" Font-Underline="True" ForeColor="Red" Text="*6-12位数字字母或者下划线组成"></asp:Label>
                 </div>
                 <div style="padding: 8px 0px 8px 0">
                     <a>确认密码：</a><asp:TextBox ID="queren" runat="server" TextMode="Password"></asp:TextBox>
@@ -26,6 +27,7 @@
                 </div>
                 <div style="padding: 8px 0px 8px 0">
                     <a>邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 箱：</a><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:Label ID="Warning1" runat="server" Font-Names="宋体" Font-Size="Small" Font-Underline="True" ForeColor="Red" Text="*用于密码找回和获取咨询"></asp:Label>
                 </div>
             </div>
             <div style="padding: 8px 0px 10px 0">
