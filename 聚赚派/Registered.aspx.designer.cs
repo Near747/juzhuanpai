@@ -31,6 +31,15 @@ namespace 聚赚派 {
         protected global::System.Web.UI.WebControls.TextBox zhuce;
         
         /// <summary>
+        /// Warning1 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Warning1;
+        
+        /// <summary>
         /// denglu 控件。
         /// </summary>
         /// <remarks>
@@ -40,13 +49,13 @@ namespace 聚赚派 {
         protected global::System.Web.UI.WebControls.TextBox denglu;
         
         /// <summary>
-        /// Warning0 控件。
+        /// Warning2 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Warning0;
+        protected global::System.Web.UI.WebControls.Label Warning2;
         
         /// <summary>
         /// queren 控件。
@@ -67,13 +76,13 @@ namespace 聚赚派 {
         protected global::System.Web.UI.WebControls.TextBox name;
         
         /// <summary>
-        /// Warning 控件。
+        /// Warning4 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Warning;
+        protected global::System.Web.UI.WebControls.Label Warning4;
         
         /// <summary>
         /// TextBox2 控件。
@@ -103,13 +112,13 @@ namespace 聚赚派 {
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
         
         /// <summary>
-        /// Warning1 控件。
+        /// Warning7 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Warning1;
+        protected global::System.Web.UI.WebControls.Label Warning7;
         
         /// <summary>
         /// yanzhengma 控件。
