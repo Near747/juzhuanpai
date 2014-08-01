@@ -1,0 +1,9 @@
+﻿div.agree{
+background-image:url(/Images/Submit_norml.png);
+
+}
+    div.agree :hover {
+    background-image:url(/Images/Submit_light.png);
+    
+    }
+    
