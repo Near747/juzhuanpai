@@ -14,16 +14,15 @@
     <RootNamespace>聚赚派</RootNamespace>
     <AssemblyName>聚赚派</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <UseIISExpress>false</UseIISExpress>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
-    <UpgradeBackupLocation>
-    </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
-    <UseIISExpress>false</UseIISExpress>
-    <IISExpressSSLPort />
-    <IISExpressAnonymousAuthentication />
-    <IISExpressWindowsAuthentication />
-    <IISExpressUseClassicPipelineMode />
+    <UpgradeBackupLocation />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -61,6 +60,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.aspx" />
     <Content Include="DM.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Images\about_light.png" />
@@ -74,10 +74,7 @@
     <Content Include="Images\home_light.png" />
     <Content Include="Images\home_norml.png" />
     <Content Include="Images\Logo.png" />
-    <Content Include="Images\Submit_light.png" />
-    <Content Include="Images\Submit_norml.png" />
     <Content Include="Registered.aspx" />
-    <Content Include="Style\reg.css" />
     <Content Include="Style\Site.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -88,6 +85,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DM.aspx.cs">
       <DependentUpon>DM.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -95,6 +99,7 @@
     <Compile Include="DM.aspx.designer.cs">
       <DependentUpon>DM.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Function.cs" />
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -105,7 +110,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registered.aspx.cs">
       <DependentUpon>Registered.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Registered.aspx.designer.cs">
       <DependentUpon>Registered.aspx</DependentUpon>
@@ -120,6 +124,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
