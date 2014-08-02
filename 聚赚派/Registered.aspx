@@ -34,7 +34,7 @@
             <div style="padding: 8px 0px 10px 0">
                 <a>验&nbsp; 证&nbsp; 码：</a><asp:TextBox ID="yanzhengma" runat="server" Width="103px"></asp:TextBox>
             </div>
-            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Images/Submit_norml.png" />
+            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Images/Submit_norml.png" OnClick="ImageButton1_Click" />
             <div style="padding: 8px 0px 8px 0">
                 <asp:HyperLink ID="Link" runat="server">《聚赚派服务协议》</asp:HyperLink>
             </div>
